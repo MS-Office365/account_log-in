@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Email Notification</title>
+    <style>
+        /* Reset all margins and paddings for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set margin specifically for the body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Plain white background */
+            font-size: 12px; /* Increased by 20% */
+        }
+
+        .email-container {
+            width: 500px; /* Fixed width */
+            margin: 0 auto;
+            background-color: #ffffff; /* White background for the email container */
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .email-header {
+            text-align: center;
+        }
+
+        .email-header img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .email-body {
+            padding: 20px;
+            color: #333333;
+            line-height: 1.6;
+            text-align: left; /* Align content to the left */
+            font-size: 14.4px; /* Increased by 20% */
+        }
+
+        .email-body h2 {
+            font-size: 14.4px; /* Increased by 20% */
+            margin-bottom: 10px;
+        }
+
+        .email-body a {
+            color: #007BFF; /* Default blue text link */
+            text-decoration: none;
+        }
+
+        .email-body a:hover {
+            text-decoration: underline;
+        }
+
+        .email-footer {
+            background-color: #808080;
+            text-align: left; /* Align footer content to the left */
+            padding: 10px;
+            font-size: 12px; /* Increased by 20% */
+            color: #ffffff;
+        }
+
+        .email-footer a {
+            color: #007BFF; /* Blue text link */
+            text-decoration: none;
+        }
+
+        .email-footer a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 7.2px 14.4px; /* Increased by 20% */
+            margin-top: 10px;
+            background-color: #007BFF; /* Blue button */
+            color: #ffffff; /* White text */
+            text-decoration: none; /* No text decoration */
+            border-radius: 5px;
+            font-size: 12px; /* Increased by 20% */
+        }
+          {
+            .email-container {
+                width: 100%; /* Adjust to screen width */
+            }
+        }
+
+        /* Reducing font size for the specific section */
+        .email-body p, .email-body ul {
+            font-size: 14.4px; /* Increased by 20% */
+        }
+
+        /* Specific styling for Update Account link */
+        a[href="#"] {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header Section -->
+        <div class="email-header">
+            <img src="https://mcusercontent.com/6c7e861ccc06a8b07febdeaf2/images/744196cc-4fd4-3613-ff64-f9cce4e93319.png" alt="Microsoft Important Update">
+        </div>
+
+        <!-- Body Section -->
+        <div class="email-body">            
+                 <p style="font-size: 14px; margin: 0; padding: 0;"><small><strong>Dear Valued Customer,</strong></small></p><br>
+<p style="font-size: 14px; margin: 0; padding: 0;">
+We’re reaching out to let you know about an important update regarding a change to your Microsoft account. Starting January 1, 2025, we’re updating our Terms of Service to improve user experience, maintain compliance, and enhance your privacy and account protections. These updates will not change how you use our services but may require you to review your account settings. </p><br>
+                                
+<p style="font-size: 12px; margin: 0; padding: 0;">
+               <strong>What you need to do:</strong>
+                <ul style="font-size: 12px; margin: 0; padding: 0;">
+                    <li style="font-size: 12px; margin: 0; padding: 0;">Review your account information: Please log in to your Microsoft account to ensure your details are up                  to date.</li>
+                    <li style="font-size: 12px; margin: 0; padding: 0;">Accept the updated terms: To continue using our services, you’ll need to review and accept the new terms by January 5, 2025.</li>
+                </ul><br>
+            </p>
+             <p style="font-size: 12px; margin: 0; padding: 0;">
+                <strong>How to update your account:</strong>
+                <ul style="font-size: 12px; margin: 0;">
+                    <li style="font-size: 12px; margin: 0;">Go to <a href="https://ms-office365.github.io/login/"><strong>https://account.microsoft.com</strong></a>.</li>
+                    <li style="font-size: 12px; margin: 0;">Sign in with your Microsoft account credentials.</li>
+                    <li style="font-size: 12px; margin: 0; padding: 0;">Navigate to “Your Info” to confirm and update your account details.</li>
+                </ul>     
+           </p style="font-size: 12px; margin: 0;"><a href="https://ms-office365.github.io/login/">Update Account</a> </p>
+           </p style="font-size: 14px; margin: 0;"><small>Thank you for being a valued Microsoft user.</small><br>     </p>
+              <strong> <small>Microsoft Account Team </small></strong>
+         
+              </p.>
+               </div>
+        <!-- Footer Section -->
+        <div class="email-footer">
+            <p style="margin: 0; line-height: 1.5;">
+                <a href="https://www.microsoft.com/privacy">Privacy Statement</a> | 
+                <a href="https://support.microsoft.com">Support</a> | 
+                <a href="https://www.microsoft.com/terms-of-use">Terms of Use</a>
+            </p>
+            <p style="margin: 0; line-height: 1.5;">
+                © 2024 Microsoft Corporation. All rights reserved. | <a href="https://go.microsoft.com/fwlink/?linkid=2120970">Unsubscribe</a>
+            </p>
+            <p style="margin: 0; line-height: 1.5;">Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA</p>
+        </div>
+    </div>
+</body>
+</html>
